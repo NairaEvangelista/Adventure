@@ -1,0 +1,60 @@
+version: 2
+
+sources:
+  - name: erp_adventure
+    description: 'Essa é a fonte do sistema ERP da adventure works com dados de vendas e transações.'
+    database: FEA24_11
+    schema: RAW_ADVENTURE_WORKS
+    tables:
+      - name: employee
+        description: 'Tabela com dados de funcionários.'
+        
+      - name: customer
+        description: 'Tabela com dados de consumidores.'
+
+      - name: product
+        description: 'Tabela com dados de produtos.'
+        
+      - name: productsubcategory
+        description: 'Tabela com dados de subcategoria produtos.'
+        
+      - name: productcategory
+        description: 'Tabela com dados de categoria produtos.'
+        
+      - name: salesterritory
+        description: 'Tabela com dados de território de vendas.'
+        
+      - name: store
+        description: 'Tabela com dados de vendas.'
+                
+      - name: address
+        description: 'Tabela com dados de endereço.'
+                
+      - name: countryregion
+        description: 'Tabela com dados de país.'
+                
+      - name: creditcard
+        description: 'Tabela com dados de cartão de crédito.'
+                
+      - name: person
+        description: 'Tabela com dados de vendedor.'
+                
+      - name: salesorderdetail
+        description: 'Tabela com dados de detalhe de ordem de vendas.'
+        
+      - name: salesorderheader
+        description: 'Tabela com dados de cabeçalho de ordem de vendas.'
+                
+      - name: salesorderheadersalesreason
+        description: 'Tabela com dados motivo de cabeçalho de ordem de vendas.'
+                
+      - name: salesperson
+        description: 'Tabela com dados de vendedores.'
+                        
+      - name: salesreason
+        description: 'Tabela com dados de motivo de vendas.'
+                        
+      - name: stateprovince
+        description: 'Tabela com dados de Estado.'
+        
+        
