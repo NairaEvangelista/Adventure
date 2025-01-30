@@ -7,7 +7,7 @@ with
      , cabecalho_ordemvenda_renomeado as (
         select 
              cast(SALESORDERID as int) as pk_salesorder
-            , cast(SHIPTOADDRESSID as int) as fk_adress
+            , cast(SHIPTOADDRESSID as int) as fk_address
             , cast(SALESPERSONID as int) as fk_salesperson
             , cast(CUSTOMERID as int) as fk_customer
             , cast(CREDITCARDID as int) as fk_creditcard
