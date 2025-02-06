@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: dim_address
+    description: Dimensão de cartão de endereços da Adventure Works.
+    columns:
+      - name: pk_address
+        description: Chave primária da dimensão endereços.
+        tests:
+          - unique
+          - not_null
+      - name: city
+        description: Cidades.  
+      - name: name_state
+        description: Estados. 
+      - name: name_country
+        description: Países.                         

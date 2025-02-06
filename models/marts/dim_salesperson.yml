@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: dim_salesperson
+    description: Dimensão de vendedores da Adventure Works.
+    columns:
+      - name: pk_salesperson
+        description: Chave primária da dimensão vendedores.
+        tests:
+          - unique
+          - not_null
+      - name: full_name_person
+        description: Nome completo dos vendedores.
+      - name: jobtitle_employee
+        description: Cargo dos vendedores.
+      - name: gender_employee
+        description: Gênero dos vendedores.                          

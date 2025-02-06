@@ -59,7 +59,7 @@ with
         from salesorderheader
         left join salesorderdetail on salesorderheader.pk_salesorder = salesorderdetail.fk_salesorder
         left join salesorderheadersalesreason on salesorderheader.pk_salesorder = salesorderheadersalesreason.fk_salesorder
-        left join salesreason on salesorderheadersalesreason.fk_salereason = salesreason.pk_salesreason
+        left join salesreason on salesorderheadersalesreason.fk_salesreason = salesreason.pk_salesreason
         
     )
 

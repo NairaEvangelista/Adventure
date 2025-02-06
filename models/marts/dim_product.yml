@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dim_product
+    description: Dimensão de cartão de produtos da Adventure Works.
+    columns:
+      - name: pk_product
+        description: Chave primária da dimensão produtos.
+        tests:
+          - unique
+          - not_null
+      - name: name_product
+        description: Nome dos produtos.    
+      - name: weight_product
+        description: Peso dos produtos.       
+      - name: name_category_product
+        description: Categoria dos produtos.    
+      - name: name_subcategory
+        description: Subcategoria dos produtos.                   
