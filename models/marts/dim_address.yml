@@ -10,8 +10,8 @@ models:
           - unique
           - not_null
       - name: city
-        description: Cidades.  
+        description: Nome das cidades associadas ao endereço.  
       - name: name_state
-        description: Estados. 
+        description: Nome dos estados associados ao endereço. 
       - name: name_country
-        description: Países.                         
+        description: Nome dos países associados ao endereço.                         
