@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: dim_creditcard
+    description: Dimensão de cartão de crédito da Adventure Works.
+    columns:
+      - name: pk_creditcard
+        description: Chave primária da dimensão cartão de crédito.
+        tests:
+          - unique
+          - not_null
+      - name: type_creditcard
+        description: Tipo de cartão de crédito.          

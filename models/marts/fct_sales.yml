@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: fct_sales
+    description: Dimensão de vendas da Adventure Works.
+    columns:
+      - name: sk_fact
+        description: Chave subrrogada da dimensão vendas.
+      - name: pk_fact
+        description: Chave primária da dimensão vendas.
+      - name: pk_salesorder
+        description: Chave primária da dimensão pedido de vendas.
+      - name: fk_product
+        description: Chave estrangeira da dimensão vprodutos.
+      - name: fk_customer
+        description: Chave estrangeira da dimensão consumidores.
+      - name: fk_creditcard
+        description: Chave estrangeira da dimensão cartão de crédito.
+      - name: fk_address
+        description: Chave estrangeira da dimensão endereços.
+      - name: fk_salesperson
+        description: Chave estrangeira da dimensão vendedores.     
+      - name: fk_salesreason
+        description: Chave estrangeira da dimensão motivo de vendas.          
+                                            
